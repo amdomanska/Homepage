@@ -4,9 +4,9 @@ import { Observable } from 'rxjs';
 import { trigger,style,transition,animate,keyframes,query,stagger } from '@angular/animations';
 
 @Component({
-  selector: 'app-users',
-  templateUrl: './users.component.html',
-  styleUrls: ['./users.component.scss'],
+  selector: 'app-experience',
+  templateUrl: './experience.component.html',
+  styleUrls: ['./experience.component.scss'],
   animations: [
     trigger('listStagger', [
       transition('* <=> *', [
@@ -32,15 +32,15 @@ import { trigger,style,transition,animate,keyframes,query,stagger } from '@angul
   ]
 })
 
-export class UsersComponent implements OnInit {
+export class ExperienceComponent implements OnInit {
 
-  users$: Object;
+  experiences: Object;
 
   constructor(private data: DataService) { }
 
   ngOnInit() {
-    this.data.getUsers().subscribe(
-      data => this.users$ = data
+    this.data.getExperience().subscribe(
+      data => this.experiences = data
     )
   }
 

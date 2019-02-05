@@ -1,0 +1,62 @@
+[
+  {
+    "position": "Maternity leave",
+    "company": "",
+    "dates": "Apr 2013 – Present",
+    "details": [
+      " Contribution to Etcher open-source project (remotely): converting UI components written in Angular to React",
+      " Full stack development projects: full code available at github.com/amdomanska",
+      " Leetcode algorithms and data structeres problems solving (mainly in Java; over 110 problems solved)"],
+    "courses and certificates": {
+      "University of California, San Diego on Coursera(Jan 2016)": [
+        "Object Oriented Programming in Java",
+        "Java Data Structures and Performance",
+        "Advanced Data Structures in Java"
+      ],
+      "University of Michigan on Coursera (Aug 2016)": [
+        "Programming for Everybody (Getting Started with Python)",
+        "Python Data Structures",
+        "Using Python to Access Web Data",
+        "Using Databases with Python"
+      ]
+    }
+  },
+  {
+    "position": "Open Source Java Contributor",
+    "company": "Adblock Plus",
+    "dates": "Feb 2015 – Jun 2015",
+    "details": [
+      "Development of Java solutions for user interface for Android application",
+      "Working remotely with the team"
+    ]
+  },
+  {
+    "position": "Software Engineer C++",
+    "company": "REC Global, External employee at Nokia Siemens Networks ",
+    "dates": "Apr 2012 – Apr 2013",
+    "details": [
+      "Developing software for 3G/LTE base station",
+      "Actively working with the team to develop/optimize the process for solution delivery",
+      "Using Agile practices and Test Driven Development techniques to provide reliable, working software (tool: Jira)",
+      "Providing continuous integration and continuous delivery (tool: Jenkins)",
+      "Code maintenance and optimisation"
+    ]
+  },
+  {
+    "position": "Electronics Engineer",
+    "company": "Bumar",
+    "dates": "Mar 2010 – Mar 2012",
+    "details": [
+      "Development of firmware and user interface for microwave radar modules",
+      "Cooporation with other teams to coordinate different part of product (incl. analog and digital parts)",
+      "Analyse customer issues and help deliver solutions to address their concerns",
+      "Consulting product specification and requirements with clients",
+      "Development of firmware that had to meet requirements of Real Time Systems",
+      "Creating design documentation"
+    ]
+  }
+  
+]
+
+
+

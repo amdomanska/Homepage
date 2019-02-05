@@ -1,13 +1,15 @@
 <nav>
   <ul>
-    <li>
+    <li class="tooltip">
       <a routerLink='' [class.activated]="currentUrl == '/'">
-        <i class='material-icons'>supervised_user_circle</i>
+        <i class='material-icons'>account_circle</i>
+        <span class="tooltiptext">About me</span>
       </a>
     </li>
-    <li>
-      <a routerLink='posts' [class.activated]="currentUrl == '/posts'">
-        <i class='material-icons'>message</i>
+    <li class="tooltip">
+      <a routerLink='experience' [class.activated]="currentUrl == '/experience'">
+        <i class='material-icons'>work</i>
+        <span class="tooltiptext">Professional experience</span>
       </a>
     </li>
   </ul>

@@ -1,0 +1,15 @@
+<h1>PROFESSIONAL EXPERIENCE</h1>
+
+<ul [@listStagger]="experiences$">
+  <li *ngFor='let experience of experiences'>
+    <!--<a routerLink='/details/{{ user.id }}'>{{ user.name }}</a>-->
+    <ul>
+      <li class="position">{{ experience.position }}</li>
+      <!--<li><a href='http://{{ user.website }}'>{{ user.website }}</a></li>-->
+      <li class="company">{{ experience.company}}<span class="dates">  ({{ experience.dates}})</span></li>
+      <ul class="details" *ngFor='let d of experience.details'>
+        <li>{{ d }}</li>
+      </ul>
+    </ul>
+  </li>
+</ul>
