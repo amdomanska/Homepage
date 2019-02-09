@@ -1,19 +1,29 @@
 <div class="header">
-  <div>
-    <h2>{{ basics.name }}</h2>
-    <h1>{{ basics.surname }}</h1>
-  </div>
-  <div class="contact">
-    <p><span style="font-weight: bold">Email:&nbsp;&nbsp;&nbsp;  </span>{{basics.email}}</p>
-    <p><span style="font-weight: bold">Phone number:&nbsp;&nbsp;&nbsp;  </span>{{basics.phone}}</p>
-    <p><span style="font-weight: bold">Github:&nbsp;&nbsp;&nbsp;  </span>{{basics.github}}</p>
-    <p><span style="font-weight: bold">LinkedIn:&nbsp;&nbsp;&nbsp;  </span>{{basics.linkedin}}</p>
-    <p><span style="font-weight: bold">Leetcode:&nbsp;&nbsp;&nbsp;  </span>{{basics.email}}</p>
-  </div>
+  <h2>{{ basics.name }}</h2>
+  <h1>{{ basics.surname }}</h1>
 </div>
-
-<ul>
+    <ul>
   <li>
     <p class="aboutme">{{ basics.about }} </p>
+    <div class="contact">
+        <a href="{{basics.github}}" target="_blank">
+            <span class="tooltip" style="color: #00a8ff">
+              <i class="fab fa-github" style="font-size:26px"></i>
+              <span class="tooltiptext">Github</span>
+            </span>
+          </a>
+          <a href="{{basics.linkedin}}" target="_blank">
+            <span class="tooltip" style="color: #00a8ff">
+              <i class="fab fa-linkedin" style="font-size:26px"></i>
+              <span class="tooltiptext">LinkedIn</span>
+            </span></a>
+          <a href="{{basics.leetcode}}" target="_blank">
+            <span class="tooltip" style="color: #00a8ff">
+              <img src="./assets/leetcode.png" height="26px" width="26px">
+              <span class="tooltiptext">LeedCode</span>
+            </span>
+          </a>
+    </div>
   </li>
 </ul>
+

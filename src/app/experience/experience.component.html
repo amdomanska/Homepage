@@ -7,9 +7,11 @@
       <li class="position">{{ experience.position }}</li>
       <!--<li><a href='http://{{ user.website }}'>{{ user.website }}</a></li>-->
       <li class="company">{{ experience.company}}<span class="dates">  ({{ experience.dates}})</span></li>
-      <ul class="details" *ngFor='let d of experience.details'>
-        <li>{{ d }}</li>
-      </ul>
+      <div class="details">
+        <ul *ngFor='let d of experience.details'>
+          <li style="line-height: 1">{{ d }}</li>
+        </ul>
+    </div>
     </ul>
   </li>
 </ul>

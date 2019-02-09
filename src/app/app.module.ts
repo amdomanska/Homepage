@@ -8,6 +8,7 @@ import { AboutmeComponent } from './aboutme/aboutme.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { HttpClientModule } from '@angular/common/http'
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { EducationComponent } from './education/education.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     SidebarComponent,
     AboutmeComponent,
     ExperienceComponent,
+    EducationComponent,
   ],
   imports: [
     BrowserModule,
